@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://deeepcoder:bipsymybabes@cluster0.vnj00.mongodb.net/my_database', {useNewUrlParser: true});
+mongoose.connect('mongodb+srv://deeepcoder:bipsymybabes@cluster0.vnj00.mongodb.net/my_database', {useNewUrlParser: true, useUnifiedTopology: true});
 const app = new express()
 const ejs = require('ejs')
 // const { resourceUsage } = require('process')
